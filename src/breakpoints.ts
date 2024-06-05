@@ -24,7 +24,7 @@ export type _BreakpointResult = {
 }
 
 
-export let defaultBreakpoints = {
+export let ka_defaultBreakpoints = {
     // Bootstrap breakpoints
     xs: 0,
     sm: 576,
@@ -34,7 +34,7 @@ export let defaultBreakpoints = {
     xxl: 1400,
 }
 
-export function getBreakPoint(width : number = window.innerWidth, breakpoints : BreakpointConfig = defaultBreakpoints) : _BreakpointResult {
+export function ka_getBreakPoint(width : number = window.innerWidth, breakpoints : BreakpointConfig = ka_defaultBreakpoints) : _BreakpointResult {
     let bp = breakpoints;
     // Sort the breakpoints ascending by value
     let sorted = Object.keys(bp).sort((a, b) => bp[a] - bp[b]);
