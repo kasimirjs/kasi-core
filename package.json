@@ -1,6 +1,6 @@
 {
   "name": "@kasimirjs/core",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "",
   "license": "ISC",
   "main": "./index.js",
@@ -12,7 +12,8 @@
   "files": [
     "/*.js",
       "*.d.ts",
-      "/src"
+      "/src/**/*.js",
+      "/src/**/*.d.ts"
   ],
   "workspaces": [
     "workspaces--/*"
