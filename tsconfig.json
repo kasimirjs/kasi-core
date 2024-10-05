@@ -20,7 +20,7 @@
   },
   "include": [
     "src/**/*",
-    "*.html"
+    "*.ts"
   ],
   "exclude": [
     "./test"
